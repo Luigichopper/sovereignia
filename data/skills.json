@@ -1,0 +1,51 @@
+{
+  "ranks": [
+    "None",
+    "Beginner",
+    "Intermediate",
+    "Advanced",
+    "Saint",
+    "King",
+    "Emperor"
+  ],
+  "sword_styles": [
+    {
+      "name": "Water-Guard",
+      "philosophy": "Defensive/Parry",
+      "description": "Flowing blade redirection modeled after northern winter streams."
+    },
+    {
+      "name": "North-Flow",
+      "philosophy": "Counter/Flow",
+      "description": "Pragmatic marcher school prioritizing endurance, traps, and sudden counters."
+    },
+    {
+      "name": "Flame-Strike",
+      "philosophy": "Offensive/Speed",
+      "description": "Decisive Imperial-influenced draw cuts built to shatter shields."
+    }
+  ],
+  "magic_schools": [
+    {
+      "name": "Healing/Restoration",
+      "base_incantation_lines": 5,
+      "description": "Church-sanctioned restorative arts drawing upon divine breath."
+    },
+    {
+      "name": "Frost/Water",
+      "base_incantation_lines": 4,
+      "description": "Vapor condensation, rime barriers, and river-warding."
+    },
+    {
+      "name": "Flame",
+      "base_incantation_lines": 4,
+      "description": "Siege combustion and hearth-kindling favored by border legates."
+    },
+    {
+      "name": "Earth-Fortification",
+      "base_incantation_lines": 6,
+      "description": "Stone-shaping for mine shafts, ramparts, and mountain roads."
+    }
+  ]
+}
+

@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+out/
+cmake-build-*/
+.vs/
+
+# IDE & OS
+*.user
+*.suo
+*.sln
+*.vcxproj*
+.DS_Store
+Thumbs.db
+

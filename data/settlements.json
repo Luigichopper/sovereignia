@@ -1,0 +1,560 @@
+{
+  "kingdom_name": "Kingdom of Nordmark",
+  "settlements": [
+    {
+      "id": "vaelgard",
+      "name": "Vaelgard",
+      "type": "Capital",
+      "region_hint": "center",
+      "cohorts": {
+        "Farmers": 380,
+        "Fishermen": 60,
+        "Miners": 30,
+        "Lumberjacks": 90,
+        "Artisans": 180
+      },
+      "stockpiles": {
+        "Grain": 420.0,
+        "Fish": 95.0,
+        "Firewood": 280.0,
+        "Timber": 160.0,
+        "Iron": 90.0,
+        "Silver": 120.0,
+        "MagicCrystals": 18.0
+      },
+      "corvee_rate": 0.12,
+      "tithe_rate": 0.10,
+      "dominant_text": "Chronicle of the First Margraves",
+      "active_law": "The Vaelenian Frost Tithe of 479",
+      "ruler": {
+        "name": "Aleksandr Vaelen",
+        "house": "Vaelen",
+        "title": "Margrave of Nordmark",
+        "age": 44,
+        "female": false,
+        "trait": "Pragmatic",
+        "sword_style": "Water-Guard",
+        "sword_rank": "Advanced",
+        "magic_school": "Frost/Water",
+        "magic_rank": "Beginner",
+        "mana_capacity": 48.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.74,
+        "household": [
+          { "name": "Lady Elena Vaelen", "role": "Legitimate Wife", "age": 39, "note": "Scheming, Boreas kin" },
+          { "name": "Mila of Saltmere", "role": "Concubine", "age": 27, "note": "Merchant guild backing" },
+          { "name": "Lukas Vaelen", "role": "Legitimate Heir", "age": 9, "note": "High mana aptitude (142)" },
+          { "name": "Ser Henrik", "role": "Sword Tutor", "age": 51, "note": "Water-Guard Saint" }
+        ]
+      }
+    },
+    {
+      "id": "kaldheim",
+      "name": "Kaldheim",
+      "type": "MiningCamp",
+      "region_hint": "north_peaks",
+      "cohorts": {
+        "Farmers": 45,
+        "Fishermen": 0,
+        "Miners": 240,
+        "Lumberjacks": 65,
+        "Artisans": 40
+      },
+      "stockpiles": {
+        "Grain": 140.0,
+        "Fish": 20.0,
+        "Firewood": 150.0,
+        "Timber": 95.0,
+        "Iron": 210.0,
+        "Silver": 64.0,
+        "MagicCrystals": 34.0
+      },
+      "corvee_rate": 0.18,
+      "tithe_rate": 0.10,
+      "dominant_text": "The Frost Canon",
+      "active_law": "Charter of the Deep Vein",
+      "ruler": {
+        "name": "Torvald Boreas-Kald",
+        "house": "Boreas-Kald",
+        "title": "Mine-Thane of Kaldheim",
+        "age": 49,
+        "female": false,
+        "trait": "Stern",
+        "sword_style": "Flame-Strike",
+        "sword_rank": "Intermediate",
+        "magic_school": "Earth-Fortification",
+        "magic_rank": "Intermediate",
+        "mana_capacity": 62.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.68,
+        "household": [
+          { "name": "Lady Astrid", "role": "Legitimate Wife", "age": 42, "note": "Pious icon patron" },
+          { "name": "Sigrid Boreas-Kald", "role": "Daughter", "age": 16, "note": "Crystal-attuned" }
+        ]
+      }
+    },
+    {
+      "id": "fort_vael",
+      "name": "Fort Vael",
+      "type": "Fortress",
+      "region_hint": "northwest_march",
+      "cohorts": {
+        "Farmers": 110,
+        "Fishermen": 15,
+        "Miners": 35,
+        "Lumberjacks": 55,
+        "Artisans": 70
+      },
+      "stockpiles": {
+        "Grain": 180.0,
+        "Fish": 30.0,
+        "Firewood": 160.0,
+        "Timber": 120.0,
+        "Iron": 130.0,
+        "Silver": 35.0,
+        "MagicCrystals": 12.0
+      },
+      "corvee_rate": 0.15,
+      "tithe_rate": 0.08,
+      "dominant_text": "The Frost Canon",
+      "active_law": "Marcher Watch Statute",
+      "ruler": {
+        "name": "Castellan Rodrik Euros",
+        "house": "Euros-Hald",
+        "title": "Warden of Fort Vael",
+        "age": 38,
+        "female": false,
+        "trait": "Vigilant",
+        "sword_style": "North-Flow",
+        "sword_rank": "Saint",
+        "magic_school": "None",
+        "magic_rank": "None",
+        "mana_capacity": 18.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.62,
+        "household": [
+          { "name": "Lady Vera Euros", "role": "Legitimate Wife", "age": 34, "note": "Cousin to Vaelen" },
+          { "name": "Alden Euros", "role": "Heir", "age": 11, "note": "Squire at arms" }
+        ]
+      }
+    },
+    {
+      "id": "st_cyril",
+      "name": "St. Cyril's Monastery",
+      "type": "Bishopric",
+      "region_hint": "highland_forest",
+      "cohorts": {
+        "Farmers": 120,
+        "Fishermen": 15,
+        "Miners": 10,
+        "Lumberjacks": 75,
+        "Artisans": 85
+      },
+      "stockpiles": {
+        "Grain": 240.0,
+        "Fish": 55.0,
+        "Firewood": 210.0,
+        "Timber": 110.0,
+        "Iron": 30.0,
+        "Silver": 75.0,
+        "MagicCrystals": 26.0
+      },
+      "corvee_rate": 0.08,
+      "tithe_rate": 0.14,
+      "dominant_text": "Homilies of St. Cyril",
+      "active_law": "Charter of St. Cyril's Immunity",
+      "ruler": {
+        "name": "Metropolitan Seraphim",
+        "house": "Morozov",
+        "title": "Metropolitan of the North",
+        "age": 61,
+        "female": false,
+        "trait": "Ascetic",
+        "sword_style": "None",
+        "sword_rank": "None",
+        "magic_school": "Healing/Restoration",
+        "magic_rank": "Saint",
+        "mana_capacity": 165.0,
+        "incantationless": true,
+        "rite": "HesychastMystic",
+        "zeal": 0.96,
+        "household": [
+          { "name": "Brother Toma", "role": "Scriptorium Scribe", "age": 31, "note": "Iconography scholar" },
+          { "name": "Sister Martha", "role": "Infirmarian", "age": 44, "note": "Advanced Restoration" }
+        ]
+      }
+    },
+    {
+      "id": "oakhaven",
+      "name": "Oakhaven",
+      "type": "FarmingVillage",
+      "region_hint": "central_plain",
+      "cohorts": {
+        "Farmers": 440,
+        "Fishermen": 20,
+        "Miners": 10,
+        "Lumberjacks": 55,
+        "Artisans": 45
+      },
+      "stockpiles": {
+        "Grain": 310.0,
+        "Fish": 25.0,
+        "Firewood": 135.0,
+        "Timber": 70.0,
+        "Iron": 22.0,
+        "Silver": 18.0,
+        "MagicCrystals": 4.0
+      },
+      "corvee_rate": 0.18,
+      "tithe_rate": 0.10,
+      "dominant_text": "Homilies of St. Cyril",
+      "active_law": "The Vaelenian Frost Tithe of 479",
+      "ruler": {
+        "name": "Bailiff Grigori Lindholm",
+        "house": "Lindholm",
+        "title": "Reeve of Oakhaven",
+        "age": 47,
+        "female": false,
+        "trait": "Diligent",
+        "sword_style": "Water-Guard",
+        "sword_rank": "Beginner",
+        "magic_school": "None",
+        "magic_rank": "None",
+        "mana_capacity": 22.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.81,
+        "household": [
+          { "name": "Agatha Lindholm", "role": "Legitimate Wife", "age": 41, "note": "Parish midwife" },
+          { "name": "Mikkel Lindholm", "role": "Son", "age": 18, "note": "Levy spearman" }
+        ]
+      }
+    },
+    {
+      "id": "saltmere",
+      "name": "Saltmere",
+      "type": "FishingPort",
+      "region_hint": "east_coast",
+      "cohorts": {
+        "Farmers": 75,
+        "Fishermen": 280,
+        "Miners": 5,
+        "Lumberjacks": 45,
+        "Artisans": 65
+      },
+      "stockpiles": {
+        "Grain": 130.0,
+        "Fish": 240.0,
+        "Firewood": 120.0,
+        "Timber": 90.0,
+        "Iron": 24.0,
+        "Silver": 52.0,
+        "MagicCrystals": 6.0
+      },
+      "corvee_rate": 0.14,
+      "tithe_rate": 0.10,
+      "dominant_text": "The Frost Canon",
+      "active_law": "Saltmere Herring Assize",
+      "ruler": {
+        "name": "Baroness Katarina Notos",
+        "house": "Notos-Mere",
+        "title": "Harbor-Lady of Saltmere",
+        "age": 35,
+        "female": true,
+        "trait": "Mercantile",
+        "sword_style": "Water-Guard",
+        "sword_rank": "Intermediate",
+        "magic_school": "Frost/Water",
+        "magic_rank": "Intermediate",
+        "mana_capacity": 84.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.58,
+        "household": [
+          { "name": "Consort Valerian", "role": "Husband", "age": 37, "note": "Shipwright guildmaster" },
+          { "name": "Freya Notos", "role": "Daughter", "age": 12, "note": "Water magic novice" }
+        ]
+      }
+    },
+    {
+      "id": "south_pass",
+      "name": "South Pass",
+      "type": "Fortress",
+      "region_hint": "south_border",
+      "cohorts": {
+        "Farmers": 115,
+        "Fishermen": 0,
+        "Miners": 40,
+        "Lumberjacks": 45,
+        "Artisans": 60
+      },
+      "stockpiles": {
+        "Grain": 175.0,
+        "Fish": 25.0,
+        "Firewood": 140.0,
+        "Timber": 95.0,
+        "Iron": 110.0,
+        "Silver": 85.0,
+        "MagicCrystals": 15.0
+      },
+      "corvee_rate": 0.15,
+      "tithe_rate": 0.10,
+      "dominant_text": "Treatise on the Uncreated Mana",
+      "active_law": "Imperial Border Toll Compact",
+      "ruler": {
+        "name": "Baron Cassian Heliodor",
+        "house": "Euros-Hald",
+        "title": "Legate-Keeper of South Pass",
+        "age": 42,
+        "female": false,
+        "trait": "Ambitious",
+        "sword_style": "Flame-Strike",
+        "sword_rank": "Advanced",
+        "magic_school": "Flame",
+        "magic_rank": "Intermediate",
+        "mana_capacity": 74.0,
+        "incantationless": false,
+        "rite": "ImperialOrthodox",
+        "zeal": 0.77,
+        "household": [
+          { "name": "Lady Theodora", "role": "Legitimate Wife", "age": 33, "note": "Southern Imperial noble" },
+          { "name": "Justinian", "role": "Heir", "age": 14, "note": "Trained in Imperial rite" }
+        ]
+      }
+    },
+    {
+      "id": "frostholm",
+      "name": "Frostholm",
+      "type": "LumberCamp",
+      "region_hint": "north_taiga",
+      "cohorts": {
+        "Farmers": 65,
+        "Fishermen": 20,
+        "Miners": 25,
+        "Lumberjacks": 260,
+        "Artisans": 35
+      },
+      "stockpiles": {
+        "Grain": 125.0,
+        "Fish": 35.0,
+        "Firewood": 340.0,
+        "Timber": 260.0,
+        "Iron": 28.0,
+        "Silver": 22.0,
+        "MagicCrystals": 9.0
+      },
+      "corvee_rate": 0.16,
+      "tithe_rate": 0.10,
+      "dominant_text": "The Frost Canon",
+      "active_law": "Boreal Timber Covenant",
+      "ruler": {
+        "name": "Forester-Lord Halvar",
+        "house": "Morozov",
+        "title": "Master of the Boreal Woods",
+        "age": 53,
+        "female": false,
+        "trait": "Hardy",
+        "sword_style": "North-Flow",
+        "sword_rank": "Intermediate",
+        "magic_school": "Earth-Fortification",
+        "magic_rank": "Beginner",
+        "mana_capacity": 36.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.79,
+        "household": [
+          { "name": "Ulrika Morozova", "role": "Legitimate Wife", "age": 48, "note": "Herbalist" },
+          { "name": "Soren Morozov", "role": "Heir", "age": 21, "note": "Forester captain" }
+        ]
+      }
+    },
+    {
+      "id": "rotherfield",
+      "name": "Rotherfield",
+      "type": "FarmingVillage",
+      "region_hint": "east_valley",
+      "cohorts": {
+        "Farmers": 360,
+        "Fishermen": 45,
+        "Miners": 10,
+        "Lumberjacks": 50,
+        "Artisans": 40
+      },
+      "stockpiles": {
+        "Grain": 270.0,
+        "Fish": 45.0,
+        "Firewood": 125.0,
+        "Timber": 65.0,
+        "Iron": 20.0,
+        "Silver": 24.0,
+        "MagicCrystals": 5.0
+      },
+      "corvee_rate": 0.16,
+      "tithe_rate": 0.10,
+      "dominant_text": "Homilies of St. Cyril",
+      "active_law": "The Vaelenian Frost Tithe of 479",
+      "ruler": {
+        "name": "Lady Ysolde Notos",
+        "house": "Notos-Mere",
+        "title": "Dame of Rotherfield",
+        "age": 31,
+        "female": true,
+        "trait": "Charitable",
+        "sword_style": "Water-Guard",
+        "sword_rank": "Beginner",
+        "magic_school": "Healing/Restoration",
+        "magic_rank": "Intermediate",
+        "mana_capacity": 96.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.88,
+        "household": [
+          { "name": "Father Nicodemus", "role": "Parish Priest", "age": 56, "note": "Married parish priest" },
+          { "name": "Alda Notos", "role": "Ward", "age": 10, "note": "Novice healer" }
+        ]
+      }
+    },
+    {
+      "id": "mirrenstead",
+      "name": "Mirrenstead",
+      "type": "FishingPort",
+      "region_hint": "north_lake",
+      "cohorts": {
+        "Farmers": 110,
+        "Fishermen": 195,
+        "Miners": 15,
+        "Lumberjacks": 65,
+        "Artisans": 45
+      },
+      "stockpiles": {
+        "Grain": 185.0,
+        "Fish": 190.0,
+        "Firewood": 175.0,
+        "Timber": 110.0,
+        "Iron": 28.0,
+        "Silver": 42.0,
+        "MagicCrystals": 12.0
+      },
+      "corvee_rate": 0.14,
+      "tithe_rate": 0.10,
+      "dominant_text": "Homilies of St. Cyril",
+      "active_law": "Mirren Ferry Charter",
+      "ruler": {
+        "name": "Alderman Henrik Lindholm",
+        "house": "Lindholm",
+        "title": "Bailiff of Lake Mirren",
+        "age": 44,
+        "female": false,
+        "trait": "Diligent",
+        "sword_style": "Water-Guard",
+        "sword_rank": "Intermediate",
+        "magic_school": "Frost/Water",
+        "magic_rank": "Beginner",
+        "mana_capacity": 48.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.76,
+        "household": [
+          { "name": "Ingrid Lindholm", "role": "Legitimate Wife", "age": 38, "note": "Lake barge factor" },
+          { "name": "Leif Lindholm", "role": "Heir", "age": 15, "note": "Ice-fisher apprentice" }
+        ]
+      }
+    },
+    {
+      "id": "westwatch",
+      "name": "Westwatch Keep",
+      "type": "Fortress",
+      "region_hint": "west_pass",
+      "cohorts": {
+        "Farmers": 105,
+        "Fishermen": 10,
+        "Miners": 65,
+        "Lumberjacks": 55,
+        "Artisans": 55
+      },
+      "stockpiles": {
+        "Grain": 190.0,
+        "Fish": 25.0,
+        "Firewood": 170.0,
+        "Timber": 115.0,
+        "Iron": 140.0,
+        "Silver": 45.0,
+        "MagicCrystals": 14.0
+      },
+      "corvee_rate": 0.14,
+      "tithe_rate": 0.08,
+      "dominant_text": "The Frost Canon",
+      "active_law": "Westmarch Defile Statute",
+      "ruler": {
+        "name": "Castellan Astrid Boreas",
+        "house": "Boreas-Kald",
+        "title": "Warden of the Westmarch",
+        "age": 39,
+        "female": true,
+        "trait": "Vigilant",
+        "sword_style": "North-Flow",
+        "sword_rank": "Advanced",
+        "magic_school": "Earth-Fortification",
+        "magic_rank": "Beginner",
+        "mana_capacity": 42.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.72,
+        "household": [
+          { "name": "Consort Bjorn", "role": "Husband", "age": 41, "note": "Marcher scoutmaster" },
+          { "name": "Sigvald Boreas", "role": "Heir", "age": 13, "note": "Pass lancer" }
+        ]
+      }
+    },
+    {
+      "id": "birchhollow",
+      "name": "Birchhollow",
+      "type": "LumberCamp",
+      "region_hint": "southeast_woods",
+      "cohorts": {
+        "Farmers": 95,
+        "Fishermen": 25,
+        "Miners": 15,
+        "Lumberjacks": 225,
+        "Artisans": 40
+      },
+      "stockpiles": {
+        "Grain": 160.0,
+        "Fish": 35.0,
+        "Firewood": 310.0,
+        "Timber": 220.0,
+        "Iron": 26.0,
+        "Silver": 28.0,
+        "MagicCrystals": 8.0
+      },
+      "corvee_rate": 0.15,
+      "tithe_rate": 0.10,
+      "dominant_text": "The Frost Canon",
+      "active_law": "Birchhollow Coppice Charter",
+      "ruler": {
+        "name": "Wood-Reeve Soren Notos",
+        "house": "Notos-Mere",
+        "title": "Forester of Birchhollow",
+        "age": 46,
+        "female": false,
+        "trait": "Hardy",
+        "sword_style": "Water-Guard",
+        "sword_rank": "Intermediate",
+        "magic_school": "None",
+        "magic_rank": "None",
+        "mana_capacity": 28.0,
+        "incantationless": false,
+        "rite": "NorthernAutocephalous",
+        "zeal": 0.80,
+        "household": [
+          { "name": "Maren Notos", "role": "Legitimate Wife", "age": 40, "note": "Seedling warden" },
+          { "name": "Eirik Notos", "role": "Heir", "age": 17, "note": "Timber raftman" }
+        ]
+      }
+    }
+  ]
+}
+

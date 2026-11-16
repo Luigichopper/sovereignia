@@ -1,0 +1,48 @@
+{
+  "initial_laws": [
+    {
+      "name": "The Vaelenian Frost Tithe of 479",
+      "author": "Margrave Aleksandr Vaelen",
+      "year": 479,
+      "seat": "Vaelgard",
+      "summary": "Reserves 12% of autumn grain corvee for royal winter relief granaries."
+    },
+    {
+      "name": "Charter of St. Cyril's Immunity",
+      "author": "Margrave Aleksandr Vaelen",
+      "year": 474,
+      "seat": "St. Cyril's Monastery",
+      "summary": "Exempts monastic scriptoria from martial levy while securing parish tithes."
+    },
+    {
+      "name": "Imperial Border Toll Compact",
+      "author": "Baron Cassian Heliodor",
+      "year": 477,
+      "seat": "South Pass",
+      "summary": "Levies silver customs at South Pass to satisfy Southern Imperial tribute."
+    }
+  ],
+  "edict_templates": [
+    {
+      "kind": "grain_ration",
+      "name_pattern": "The {house} Grain Rationing Edict of {year}",
+      "summary": "Mandates measured winter bread allowances and royal granary audits."
+    },
+    {
+      "kind": "fuel_corvee",
+      "name_pattern": "{ruler}'s Boreal Hearth Ordinance of {year}",
+      "summary": "Directs emergency firewood sleds from northern timber camps to frost-struck parishes."
+    },
+    {
+      "kind": "discovery",
+      "name_pattern": "{scholar}'s Restoration Principle of {year}",
+      "summary": "Codifies faster field-healing incantations and crystal conservation."
+    },
+    {
+      "kind": "woodland_charter",
+      "name_pattern": "The {house} Woodland Coppice Charter of {year}",
+      "summary": "Mandates rotational birch-pine coppicing and protects parish watershed groves."
+    }
+  ]
+}
+

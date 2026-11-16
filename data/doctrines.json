@@ -1,0 +1,80 @@
+{
+  "rites": [
+    {
+      "id": "NorthernAutocephalous",
+      "name": "Northern Autocephalous Rite",
+      "description": "Venerates local Northern Saints, preserves married parish clergy, and answers to the Metropolitan at St. Cyril's."
+    },
+    {
+      "id": "ImperialOrthodox",
+      "name": "Imperial Orthodox Rite",
+      "description": "Recognizes the Southern Patriarch of Heliodor and standardized liturgical canons."
+    },
+    {
+      "id": "HesychastMystic",
+      "name": "Hesychast Monastic Tradition",
+      "description": "Contemplative stillness practiced in forest hermitages; views mana as a created echo of uncreated light."
+    }
+  ],
+  "initial_texts": [
+    {
+      "title": "The Frost Canon",
+      "author": "St. Cyril of Nordmark",
+      "kind": "LiturgicalCanon",
+      "year": 318,
+      "location": "St. Cyril's Monastery",
+      "doctrine": "Establishes winter fasts, parish alms, and Northern altar hymns."
+    },
+    {
+      "title": "Homilies of St. Cyril",
+      "author": "Abbot Arsenius",
+      "kind": "Treatise",
+      "year": 402,
+      "location": "Oakhaven",
+      "doctrine": "Defends married village priests and serf sanctuary rights during famine."
+    },
+    {
+      "title": "Treatise on the Uncreated Mana",
+      "author": "Metropolitan Seraphim",
+      "kind": "TheologicalTreatise",
+      "year": 471,
+      "location": "St. Cyril's Monastery",
+      "doctrine": "Distinguishes divine grace from elemental mana to justify silent prayer healing."
+    },
+    {
+      "title": "Chronicle of the First Margraves",
+      "author": "Master Vaelen's Scribe",
+      "kind": "Chronicle",
+      "year": 445,
+      "location": "Vaelgard",
+      "doctrine": "Records House Vaelen's compact with the Southern Empire at South Pass."
+    }
+  ],
+  "treatise_templates": [
+    "On the Divine Nature of Mana",
+    "On the Veneration of Ancient Icons",
+    "Pastoral Counsel for Winter Famines",
+    "Against Simony in Imperial Sees",
+    "On Silent Prayer and Restoration",
+    "On the Uncreated Light of the Boreal Skies",
+    "Hexaemeron of the Northern Forests",
+    "Epistle on Married Parish Presbyters",
+    "Scholia on the First Frost Council",
+    "Apology for Autocephalous Ordination",
+    "Treatise on Fjord tithes and Almsgiving",
+    "Contemplations from Cyril's Tarn",
+    "Vita of St. Nikon of the Pinewood",
+    "Martyrology of the Westmarch Wardens",
+    "Canon of the Winter Fast and Granary Relief",
+    "Refutation of Heliodor's Tax Legates",
+    "Enchiridion on Ley-Lines and Sacrament",
+    "Homilies on Serf Sanctuary and Mercy",
+    "Typikon of St. Cyril's Scriptorium",
+    "On the Veneration of Silver Reliquaries",
+    "Commentary on the Book of the Watchtowers",
+    "Discourse on Swordsmanship as Ascesis",
+    "Miracles of the Lady of Lake Mirren",
+    "Chronicle of the Frostfen Hermits"
+  ]
+}
+
